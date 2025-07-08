@@ -1,0 +1,30 @@
+logica,Rabin-Karp,1904494,2596
+logica,KMP,306127,2596
+logica,Boyer-Moore,1481722,2596
+Descarga,Rabin-Karp,1857544,1
+Descarga,KMP,304784,1
+Descarga,Boyer-Moore,1406241,1
+nicolas,Rabin-Karp,1874351,4
+nicolas,KMP,336485,4
+nicolas,Boyer-Moore,1589020,4
+goku,Rabin-Karp,1891502,156
+patron que no quiero que encuentre,Rabin-Karp,2086158,0
+patron que no quiero que encuentre,KMP,283051,0
+patron que no qiero que encuentre,Boyer-Moore,511801,0
+nicolas,Rabin-Karp,63780,2
+nicolas,Suffix Array,0,2
+nicolas,Suffix Array,1,2
+nicolas,Suffix Array,2,2
+nicolas,Suffix Array,1,2
+nicolas,Rabin-Karp,22829,2
+nicolas,KMP,6157,2
+nicolas,Boyer-Moore,14296,2
+nicolas,Rabin-Karp,23462,2
+nicolas,Rabin-Karp,25565,2
+nicolas,Rabin-Karp,22538,2
+nicolas,Rabin-Karp,20880,2
+nicolas,KMP,5969,2
+nicolas,Boyer-Moore,13027,2
+nicolas,Suffix Array,1,2
+nicolas,KMP,2913,2
+logica,Suffix Array,1,1

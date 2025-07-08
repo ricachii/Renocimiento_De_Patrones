@@ -1,0 +1,26 @@
+.2. Formas bien formadas
+Cuando vemos una f ́ormula Booleana debemos saber si est ́a bien escrita o no, de este
+modo sabremos si tiene o no sentido, por ejemplo en una f ́ormula aritm ́etica (2 + 3) × 5
+es una f ́ormula bien formada y somos capaces de obtener un resultado, pero si escribimos
+2() + ×3 5, esta expresi ́on no tiene ning ́un sentido y no sabr ́ıamos que calcular. Del mismo
+modo definiremos c ́omo obtener una f ́ormula bien formada en l ́ogica proposicional. Para
+comenzar damos la definici ́on de f ́ormula at ́omica y literal.
+Definici ́on 2.4. Un literal es una f ́ormula at ́omica (p, q, etc.) o la negaci ́on de una f ́ormula
+at ́omica (¬p, ¬q, etc.).
+Para definir una f ́ormula bien formada, se da una descripci ́on de qu ́e objetos son f ́ormulas
+bien formadas.
+Definici ́on 2.5. Una f ́ormula bien formada es:
+1. Un literal. Ejemplo: p, ¬q, r.
+2. La negaci ́on de una f ́ormula bien formada.
+A es FBF =⇒ ¬A es una FBF
+3. La conjunci ́on, disyunci ́on, implicancia, equivalencia y disyunci ́on excluyente de
+f ́ormulas bien formadas.
+A y B son f ́ormulas bien formadas =⇒ (A ∧ B) es una f ́ormula bien formada
+A y B son f ́ormulas bien formadas =⇒ (A ∨ B) es una f ́ormula bien formada
+A y B son f ́ormulas bien formadas =⇒ (A ⇒ B) es una f ́ormula bien formada
+A y B son f ́ormulas bien formadas =⇒ (A ⇔ B) es una f ́ormula bien formada
+A y B son f ́ormulas bien formadas =⇒ (A Y B) es una f ́ormula bien formada
+Ejemplos. Para verificar que una f ́ormula es bien formada,debemos ir identificando el operador principal
+e ir descomponiendo la f ́ormula en f ́ormulas m ́as peque ̃nas siguiendo las reglas anteriores, hasta llegar a
+f ́ormulas at ́omicas.
+1. (p ∧ q) ⇒ ¬(p ∨ (q ⇔ r))

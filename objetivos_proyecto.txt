@@ -1,0 +1,83 @@
+ 2. Fase de investigación y entendimiento profundo
+Cada integrante debe leer y entender bien:
+
+Los algoritmos Boyer-Moore, KMP, Rabin-Karp.
+
+Las estructuras de datos como Suffix Tree, Suffix Array o FM-Index.
+
+Complementar con material académico: libros, papers, y recursos como GeeksforGeeks o UC Chile.
+
+⚙️ 3. Fase de implementación
+Implementar y probar uno por uno:
+
+Algorítmicos:
+ Rabin-Karp (simple de comenzar)
+
+ KMP (útil para patrones repetidos)
+
+ Boyer-Moore (eficiente en textos largos)
+
+Basado en estructuras:
+ Suffix Array con búsqueda binaria (recomendado por simplicidad comparado al Suffix Tree)
+
+ BONUS: FM-Index si buscan puntaje extra
+
+➡️ Cada implementación debe incluir:
+
+Comentarios explicativos.
+
+Métricas de tiempo y memoria.
+
+Citas si adaptan código externo.
+
+⏱️ 4. Fase experimental
+Diseñar pruebas automáticas:
+
+📄 Cargar textos grandes (unir los 40 archivos por carpeta con $).
+
+🔍 Ejecutar búsquedas con cientos de patrones (existentes y no existentes).
+
+🧪 Medir:
+
+Tiempo de búsqueda por patrón.
+
+Tiempo total por lote.
+
+Uso de memoria.
+
+Tiempo de construcción (si aplica).
+
+➡️ Ejecutar cada prueba 20 veces y calcular el promedio. Registrar todo en .csv.
+
+📊 5. Resultados y análisis
+Usar gráficos comparativos (ej: matplotlib o Excel).
+
+Tablas claras.
+
+Comparar por tipo de algoritmo y por cantidad de documentos/patrones.
+
+📄 6. Informe PDF
+Dividir redacción por secciones:
+
+✅ Introducción (tema + motivación)
+
+✅ Descripción técnica de cada algoritmo y estructura (con ejemplos)
+
+✅ Implementación (decisiones, métricas, problemas y soluciones)
+
+✅ Metodología experimental
+
+✅ Análisis de resultados
+
+✅ Conclusiones sólidas
+
+✅ Referencias bien formateadas
+
+🗣️ 7. Preparación para la presentación
+Crear un PowerPoint claro y conciso.
+
+Ensayar la defensa para que no pase de 10-12 minutos.
+
+Cada integrante debe poder explicar cualquier parte del informe.
+
+Simular preguntas (te puedo ayudar con eso).

@@ -1,0 +1,34 @@
+{
+    "documentos": [
+        {
+            "fin": 5242880,
+            "inicio": 0,
+            "nombre": "dna_04"
+        },
+        {
+            "fin": 5242949,
+            "inicio": 5242881,
+            "nombre": "dna_06"
+        },
+        {
+            "fin": 5244291,
+            "inicio": 5242950,
+            "nombre": "dna_07"
+        },
+        {
+            "fin": 5244341,
+            "inicio": 5244292,
+            "nombre": "dna_08"
+        },
+        {
+            "fin": 5246159,
+            "inicio": 5244342,
+            "nombre": "dna_23"
+        },
+        {
+            "fin": 5246228,
+            "inicio": 5246160,
+            "nombre": "dna_23{"
+        }
+    ]
+}
