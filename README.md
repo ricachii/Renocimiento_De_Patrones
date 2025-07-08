@@ -24,7 +24,6 @@ ARCHIVOS CLAVE:
 - boyer_moore.cpp/.h   → Algoritmo de búsqueda Boyer-Moore
 - suffix_array.cpp/.h  → Búsqueda con estructura de datos Suffix Array
 - json.hpp             → Librería para manejo de JSON
-- patrones.txt         → Lista opcional de patrones para pruebas masivas
 
 --------------------------------------------------------
 🚀 USO DEL PROYECTO (paso a paso desde consola o terminal)
@@ -65,6 +64,7 @@ El programa mostrará:
 - Tiempo promedio de ejecución (20 repeticiones)
 - Ocurrencias encontradas
 - Documento en el que aparece cada una
+- La cantidad de memoria que ocupa
 
 Y guardará en:
 - resultados/rendimiento_busquedas.csv el rendimiento correspondiente a cada algoritmo
