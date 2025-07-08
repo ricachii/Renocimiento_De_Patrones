@@ -77,3 +77,10 @@ Ejemplo de línea en el CSV de memoria:
 
 patrón, algoritmo, bytes que ocupa en memoria
 logica ,Suffix Array,20819472
+
+
+Integrantes:
+Nicolás Ricciardi R. 
+José Alarcón A. 
+Gabriel Garrido Baeza 
+
