@@ -28,3 +28,5 @@ nicolas,Boyer-Moore,13027,2
 nicolas,Suffix Array,1,2
 nicolas,KMP,2913,2
 logica,Suffix Array,1,1
+2,Rabin-Karp,20279,7
+2,KMP,2875,7

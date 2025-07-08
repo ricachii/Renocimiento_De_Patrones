@@ -4,3 +4,5 @@ nicolas,Boyer-Moore,8
 nicolas,Suffix Array,20819472
 nicolas,KMP,8
 logica,Suffix Array,20819472
+2,Rabin-Karp,28
+2,KMP,28
