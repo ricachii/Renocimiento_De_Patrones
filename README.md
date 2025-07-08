@@ -5,7 +5,6 @@ PROYECTO: Detección de Patrones en Archivos
 REQUISITOS:
 -----------
 - Tener instalado g++ (MinGW en Windows)
-- Usar Visual Studio Code (opcional, pero recomendado)
 - Librería json.hpp incluida en /include (ya está en este proyecto)
 
 CARPETAS IMPORTANTES:
