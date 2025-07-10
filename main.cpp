@@ -82,11 +82,11 @@ int main()
     std::cout << "Ocurrencias: " << resultados.size() << "\n";
 
     // Mostrar los resultados
-    for (int pos : resultados)
-    {
-        std::string doc = obtenerDocumento(pos, "data/documentos.json");
-        std::cout << "Posicion: " << pos << " → Documento: " << doc << "\n";
-    }
+//    for (int pos : resultados)
+  //  {
+    //    std::string doc = obtenerDocumento(pos, "data/documentos.json");
+      //  std::cout << "Posicion: " << pos << " → Documento: " << doc << "\n";
+    //}
 
     // Medir el uso de memoria solo al final, después de completar las búsquedas
     size_t memoriaUso = 0;
