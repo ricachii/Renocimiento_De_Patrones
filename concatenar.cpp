@@ -14,6 +14,14 @@ struct Documento
     size_t fin;
 };
 
+// Función para eliminar espacios en blanco de una cadena
+std::string eliminarEspacios(const std::string &str) {
+    std::string result;
+    std::copy_if(str.begin(), str.end(), std::back_inserter(result),
+                 [](char c) { return !std::isspace(static_cast<unsigned char>(c)); });
+    return result;
+}
+
 int main()
 {
     std::string carpeta = "data/";
@@ -37,8 +45,10 @@ int main()
             std::ifstream entrada(entry.path(), std::ios::binary);
             std::string contenido((std::istreambuf_iterator<char>(entrada)), std::istreambuf_iterator<char>());
 
-            salida << contenido << "$";
-            size_t nuevo_offset = offset + contenido.size();
+            std::string contenido_sin_espacios = eliminarEspacios(contenido);
+            
+            salida << contenido_sin_espacios << "$";
+            size_t nuevo_offset = offset + contenido_sin_espacios.size();
 
             j["documentos"].push_back({{"nombre", entry.path().filename().string()},
                                        {"inicio", offset},
